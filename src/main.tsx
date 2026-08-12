@@ -8,12 +8,7 @@ function Aplicacion() {
   const mostrarContenido = () => {
     switch (seccion) {
       case "Inventario":
-        return (
-          <div>
-            <h2>📦 Inventario</h2>
-            <p>Aquí podremos controlar productos, herramientas y existencias.</p>
-          </div>
-        );
+    return <Inventario />;
 
       case "Ventas":
         return (
