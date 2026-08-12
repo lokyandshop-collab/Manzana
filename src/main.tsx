@@ -92,7 +92,7 @@ function Aplicacion() {
   );
 }
 
-ReactDOM.createRoot(document.getElementById("raiz")!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Aplicacion />
   </React.StrictMode>
